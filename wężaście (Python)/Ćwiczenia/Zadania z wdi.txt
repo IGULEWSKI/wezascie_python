@@ -1,0 +1,21 @@
+Wykład 2
+1.EBNF do rozwinięta wersja BNF, która rozwiązuje jego problemy z wyrażaniem bezpośrednio powtórzeń i wystąpień opcjonalnych.
+2.<instrukcja-while> ::= „while” „(” <operacja-logiczna> „)” (<instrukcja> | „{” {<instrukcja>} „}”)
+
+<operacja-logiczna> ::= (<zmienna> | <wartość>) <operator-logiczny> (<zmienna> | <wartość>)
+<operator-logiczny> ::= „==” | „!=” | „<=” | „>=” | „>” | „<”
+
+<instrukcja-warunkowa> ::= <instrukcja-if> | <instrukcja-if-else>
+<instrukcja-if> ::= „if” „(” <operacja-logiczna> „)” “{” {<instrukcja>} “}”
+<instrukcja-if-else> ::= <instrukcja-if> „else” | “{” {<instrukcja>} “}”
+
+3. <wyr-ary-abc> ::= (<a> "+" <b>) "*" <c>
+
+4.W pliku zad4wyk2.py
+#2
+#3
+#5
+#7
+#28116440335967
+#449177399146038697307
+#35452590104031691935943
