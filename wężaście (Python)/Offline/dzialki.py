@@ -18,4 +18,4 @@ def zad(tab,SP,i=0):
         else:
             zad(tab,SPK1,i+1)
 zad(tab,SP)
-print(max(wyn),wyn)
+print(max(wyn))
